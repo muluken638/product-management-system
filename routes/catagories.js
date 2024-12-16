@@ -1,6 +1,6 @@
 const express = require('express');
-const Category = require('../models/Category');
-const authMiddleware = require('../middleware/authMiddleware');
+const Category = require('../models/Catagory');
+const authMiddleware = require('../middleware/authMiddlewre');
 const router = express.Router();
 
 // Get all categories
