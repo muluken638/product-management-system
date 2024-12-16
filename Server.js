@@ -6,7 +6,7 @@ const connectDB = require('./config/db');
 const authRoutes = require('./routes/auth');
 const userRoutes = require('./routes/users');
 const productRoutes = require('./routes/products');
-const categoryRoutes = require('./routes/categories');
+const categoryRoutes = require('./routes/catagories');
 const orderRoutes = require('./routes/orders');
 
 dotenv.config();
